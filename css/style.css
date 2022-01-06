@@ -28,16 +28,17 @@ body {
   margin: auto;
 }
 
-.input-look:read-only {
+
+#res-contraseña{
   background-color: var(--medBlack);
   color: white;
   text-align: center;
   border: 0;
+  font-size: large;
 }
 
-.input-look:read-only:hover {
+#res-contraseña:read-only:hover {
   border: var(--lightBlack) 2px  solid;
-  
 }
 
 .input-look:disabled {
@@ -45,6 +46,7 @@ body {
   color: white;
   text-align: center;
   border: 0;
+  
 }
 
 .alert-activo{
